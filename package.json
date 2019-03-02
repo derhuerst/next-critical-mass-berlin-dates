@@ -1,0 +1,30 @@
+{
+	"name": "next-critical-mass-berlin-dates",
+	"description": "Compute dates of the next Critical Mass Berlin events.",
+	"version": "1.0.0",
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"example.js"
+	],
+	"keywords": [
+		"critical mass",
+		"berlin"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/next-critical-mass-berlin-dates",
+	"repository": "derhuerst/next-critical-mass-berlin-dates",
+	"bugs": "https://github.com/derhuerst/next-critical-mass-berlin-dates/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=8"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+	},
+	"scripts": {
+		"test": "env NODE_ENV=dev node test.js",
+		"prepublishOnly": "npm test"
+	}
+}
