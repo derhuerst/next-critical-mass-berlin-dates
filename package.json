@@ -23,6 +23,7 @@
 		"luxon": "^1.11.3"
 	},
 	"devDependencies": {
+		"is-generator-fn": "^2.0.0"
 	},
 	"scripts": {
 		"test": "env NODE_ENV=dev node test.js",

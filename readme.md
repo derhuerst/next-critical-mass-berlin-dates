@@ -19,7 +19,13 @@ npm install next-critical-mass-berlin-dates
 ## Usage
 
 ```js
-todo
+const computeNextCriticalMassDates = require('next-critical-mass-berlin-dates')
+
+const nextCriticalMassDates = computeNextCriticalMassDates()
+
+console.log(nextCriticalMassDates.next().value) // 1553886000000
+console.log(nextCriticalMassDates.next().value) // 1556301600000
+console.log(nextCriticalMassDates.next().value) // 1559325600000
 ```
 
 
