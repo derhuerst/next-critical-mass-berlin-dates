@@ -28,6 +28,8 @@ console.log(nextCriticalMassDates.next().value) // 1556301600000
 console.log(nextCriticalMassDates.next().value) // 1559325600000
 ```
 
+`computeNextCriticalMassDates` is a [generator function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*).
+
 
 ## Contributing
 

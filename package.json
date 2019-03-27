@@ -1,7 +1,7 @@
 {
 	"name": "next-critical-mass-berlin-dates",
 	"description": "Compute dates of the next Critical Mass Berlin events.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "index.js",
 	"files": [
 		"index.js",
