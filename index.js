@@ -10,9 +10,9 @@ const TIME = {
 
 function* computeNextEvents (t0 = Date.now()) {
 	let t = DateTime.fromMillis(t0, {zone: TIMEZONE})
-	.plus({week: 1})
 	.set({weekday: FRIDAY})
 	.set(TIME)
+	if (t.toMillis() < Date.now()) t = t.plus({week: 1})
 
 	while (true) {
 		const nextFriday = t.plus({week: 1}).set(TIME)
