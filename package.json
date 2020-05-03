@@ -20,7 +20,7 @@
 		"node": ">=8"
 	},
 	"dependencies": {
-		"luxon": "^1.11.3"
+		"luxon": "^1.24.0"
 	},
 	"devDependencies": {
 		"is-generator-fn": "^2.0.0"
